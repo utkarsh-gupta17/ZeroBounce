@@ -3,6 +3,9 @@ import SecurityStrip from "@/components/SecurityStrip";
 import PartnerList from "@/components/PartnerList";
 import TestEmail from "@/components/TestEmail";
 import ValidateEmail from "@/components/ValidateEmail";
+import WhyChoose from "@/components/WhyChoose";
+import Integration from "@/components/Integration";
+import Honoree from "@/components/Honoree";
 
 
 export default function Home() {
@@ -18,6 +21,12 @@ export default function Home() {
       <TestEmail/>
       {/* How to validate your Email */}
       <ValidateEmail/>
+      {/* Why to choose ZeroBounce */}
+      <WhyChoose/>
+      {/* Integration */}
+      <Integration/>
+      {/* Honoree */}
+      <Honoree/>
     </>
   );
 }

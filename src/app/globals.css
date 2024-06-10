@@ -39,3 +39,16 @@ body {
     text-wrap: balance;
   }
 }
+
+.callout {
+  background: #5f2781;
+  border-radius: 50%;
+  height: 710px;
+  left: 50%;
+  margin-left: -406px;
+  mix-blend-mode: multiply;
+  opacity: .36;
+  position: absolute;
+  top: -444px;
+  width: 710px;
+}

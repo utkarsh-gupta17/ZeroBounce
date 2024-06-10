@@ -1,7 +1,7 @@
 import { Inter,Roboto,Nunito } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-// import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,8 +16,8 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} wrapper`}>
         <Navbar/>
           {children}
-        {/* <Contact/> */}
-        </body>
+        <Footer/>
+      </body>
     </html>
   );
 }

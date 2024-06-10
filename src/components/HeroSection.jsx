@@ -24,7 +24,6 @@ const HeroSection = () => {
           <Image src="/hero.webp" alt="menu" width="700" height="700" />
         </div>
       </div>
-
     </section>
   )
 }
